@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  color: #5b769e;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  color: #5b769e;
+}
+
+.gradient-blue-cyan {
+  background: linear-gradient(-55deg, #36d1dc, #5b86e5);
+}
+
+.card-shadow {
+  box-shadow: 0px 0px 20px 0px rgba(131, 149, 255, 0.14);
+}
+
+.btn-primary {
+  @apply px-6 py-3 bg-primary text-white rounded-md font-semibold hover:bg-blue-700 transition-all;
+}
+
+.btn-secondary {
+  @apply px-6 py-3 bg-secondary text-white rounded-md font-semibold hover:bg-cyan-600 transition-all;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+
+
+/* Floating animations for clouds */
+@keyframes floatLeftToRight {
+  0%, 100% {
+    transform: translateX(-50px);
+  }
+  50% {
+    transform: translateX(50px);
+  }
+}
+
+@keyframes floatRightToLeft {
+  0%, 100% {
+    transform: translateX(50px);
+  }
+  50% {
+    transform: translateX(-50px);
+  }
+}
+
+.float-cloud-lr {
+  animation: floatLeftToRight 8s ease-in-out infinite;
+}
+
+.float-cloud-rl {
+  animation: floatRightToLeft 8s ease-in-out infinite;
+}
+
+/* Smooth 3D effect for images */
+.banner-image {
+  will-change: transform;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
+
+
+
+
+
+/* src/index.css - Add these animations */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 0.8s ease-out forwards;
+  opacity: 0;
+}
+
+/* Video optimization */
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* Ensure smooth playback */
+@media (prefers-reduced-motion: reduce) {
+  .animate-fadeInUp {
+    animation: none;
+    opacity: 1;
+  }
+  video {
+    animation: none;
+  }
+}

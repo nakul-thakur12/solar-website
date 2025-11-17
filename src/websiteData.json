@@ -1,0 +1,414 @@
+{
+  "heroSection": {
+    "title": "Power Your Future with Arvi E Solar Energy",
+    "subtitle": "Reduce your electricity bills and carbon footprint with our innovative solar energy solutions. Switch to clean, renewable energy today.",
+    "ctaPrimary": "Get a Free Quote",
+    "ctaSecondary": "Learn More",
+    "reviewRating": 4.9,
+    "reviewCount": 1500
+  },
+
+  "products": [
+    {
+      "id": 1,
+      "name": "Solar Panel 300W",
+      "price": "$299",
+      "originalPrice": "$399",
+      "rating": 5,
+      "description": "High-efficiency monocrystalline panel",
+      "image": "solar-panel-300w",
+      "category": "Solar Panels",
+      "inStock": true,
+      "features": [
+        "22% efficiency rating",
+        "25-year warranty",
+        "Weather resistant",
+        "Easy installation"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Inverter 5KW",
+      "price": "$1,499",
+      "originalPrice": "$1,799",
+      "rating": 5,
+      "description": "Pure sine wave inverter",
+      "image": "inverter-5kw",
+      "category": "Inverters",
+      "inStock": true,
+      "features": [
+        "Pure sine wave output",
+        "5000W continuous power",
+        "LCD display",
+        "Overload protection"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Battery Storage 10KWh",
+      "price": "$4,999",
+      "originalPrice": "$5,999",
+      "rating": 5,
+      "description": "Long-lasting lithium battery",
+      "image": "battery-10kwh",
+      "category": "Batteries",
+      "inStock": true,
+      "features": [
+        "10kWh capacity",
+        "Lithium-ion technology",
+        "10-year warranty",
+        "Smart monitoring"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Mounting System",
+      "price": "$499",
+      "originalPrice": "$599",
+      "rating": 4,
+      "description": "Durable aluminum mounting",
+      "image": "mounting-system",
+      "category": "Accessories",
+      "inStock": true,
+      "features": [
+        "Aluminum construction",
+        "Adjustable tilt",
+        "Corrosion resistant",
+        "Universal fit"
+      ]
+    }
+  ],
+
+  "features": [
+    {
+      "id": 1,
+      "icon": "FaLightbulb",
+      "title": "High Efficiency",
+      "description": "Premium solar panels with 22% efficiency rating"
+    },
+    {
+      "id": 2,
+      "icon": "FaLeaf",
+      "title": "Eco Friendly",
+      "description": "100% sustainable and environment friendly"
+    },
+    {
+      "id": 3,
+      "icon": "FaBolt",
+      "title": "Affordable",
+      "description": "Competitive pricing with excellent ROI"
+    }
+  ],
+
+  "services": [
+    {
+      "id": 1,
+      "title": "Solar Panel Installation",
+      "description": "Professional installation of high-efficiency solar panels for residential and commercial properties.",
+      "image": "service",
+      "features": [
+        "Free site assessment",
+        "Professional installation",
+        "Quality materials",
+        "Warranty included"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Maintenance & Support",
+      "description": "24/7 monitoring, regular maintenance, and comprehensive support for your solar system.",
+      "image": "safe",
+      "features": [
+        "24/7 monitoring",
+        "Regular maintenance",
+        "Emergency support",
+        "Performance reports"
+      ]
+    }
+  ],
+
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "role": "Homeowner",
+      "image": "/images/testimonials/john-smith.jpg",
+      "rating": 5,
+      "text": "Amazing service! The installation was smooth and the team was very professional. Already saved 40% on my energy bill!"
+    },
+    {
+      "id": 2,
+      "name": "Sarah Johnson",
+      "role": "Business Owner",
+      "image": "/images/testimonials/sarah-johnson.jpg",
+      "rating": 5,
+      "text": "Excellent experience from start to finish. The solar system has exceeded our expectations and ROI is great."
+    },
+    {
+      "id": 3,
+      "name": "Mike Davis",
+      "role": "Industrial Manager",
+      "image": "/images/testimonials/mike-davis.jpg",
+      "rating": 5,
+      "text": "Professional team, high quality work. They designed a perfect system for our facility. Highly recommended!"
+    }
+  ],
+
+  "blogPosts": [
+    {
+      "id": 1,
+      "title": "Benefits of Solar Energy",
+      "date": "2025-11-07",
+      "category": "Solar Tips",
+      "excerpt": "Learn about the numerous benefits of switching to solar energy...",
+      "image": "/images/blog/benefits-solar.jpg",
+      "author": "Admin",
+      "readTime": "5 min read"
+    },
+    {
+      "id": 2,
+      "title": "Solar Panel Maintenance Guide",
+      "date": "2025-11-05",
+      "category": "Maintenance",
+      "excerpt": "Keep your solar panels in perfect condition with our maintenance guide...",
+      "image": "/images/blog/maintenance-guide.jpg",
+      "author": "Admin",
+      "readTime": "7 min read"
+    },
+    {
+      "id": 3,
+      "title": "Government Incentives for Solar",
+      "date": "2025-11-01",
+      "category": "Incentives",
+      "excerpt": "Discover available government incentives for solar installation...",
+      "image": "/images/blog/government-incentives.jpg",
+      "author": "Admin",
+      "readTime": "6 min read"
+    }
+  ],
+
+  "plans": [
+   
+    {
+      "id": 1,
+      "name": "Power Plant",
+      "price": "₹179,000/-",
+      "period": "one-time",
+      "description": "Ideal for medium homes",
+      "features": [
+        "5 KW System",
+        "Warranty 15 years",
+        "Premium Support",
+        "Installation & Monitoring"
+      ],
+      "featured": true
+    },
+    {
+      "id": 2,
+      "name": "Power Plant",
+      "price": "₹198,000/-",
+      "period": "one-time",
+      "description": "Best for large properties",
+      "features": [
+        "10 KW System",
+        "Warranty 25 years",
+        "24/7 Support",
+        "Full installation & Maintenance"
+      ],
+      "featured": false
+    },
+    {
+      "id": 3,
+      "name": "Custom",
+      "price": "Custom",
+      "period": "quote",
+      "description": "Tailored to your needs",
+      "features": [
+        "Tailored Solution",
+        "Extended Warranty",
+        "Dedicated Support",
+        "Custom design & Installation"
+      ],
+      "featured": false
+    }
+  ],
+
+  "stats": [
+    {
+      "id": 1,
+      "value": 5000,
+      "suffix": "+",
+      "label": "Projects Completed"
+    },
+    {
+      "id": 2,
+      "value": 98,
+      "suffix": "%",
+      "label": "Client Satisfaction"
+    },
+    {
+      "id": 3,
+      "value": 15,
+      "suffix": "+",
+      "label": "Years Experience"
+    },
+    {
+      "id": 4,
+      "value": 200,
+      "suffix": "+",
+      "label": "Expert Team"
+    }
+  ],
+
+  "contactInfo": {
+    "phone": "+1 (555) 123-4567",
+    "email": "info@solarsupplier.com",
+    "address": "123 Solar Street, Green City, USA",
+    "workingHours": "Mon-Fri: 9AM-6PM",
+    "socialMedia": {
+      "facebook": "https://facebook.com/solarsupplier",
+      "twitter": "https://twitter.com/solarsupplier",
+      "instagram": "https://instagram.com/solarsupplier",
+      "linkedin": "https://linkedin.com/company/solarsupplier"
+    }
+  },
+
+   "aboutCompany": {
+    "name": "Arvi E Solar",
+    "tagline": "Powering Tomorrow with Solar Energy Today",
+    "established": "2015",
+    "headquarters": "Indore, India",
+    "mission": "To make clean, renewable solar energy accessible and affordable for every home and business in India.",
+    "vision": "To become India's most trusted solar energy provider, contributing to a sustainable and carbon-free future.",
+    "description": "Arvi Solar is a leading solar energy solutions provider in India, specializing in residential and commercial solar panel installations. With over 8 years of experience, we have successfully installed more than 10,000+ solar systems across India, helping families and businesses reduce their electricity bills while contributing to a greener planet."
+  },
+  
+  "aboutStats": [
+    {
+      "id": 1,
+      "value": "10,000+",
+      "label": "Solar Installations",
+      "icon": "installations"
+    },
+    {
+      "id": 2,
+      "value": "8+",
+      "label": "Years Experience",
+      "icon": "experience"
+    },
+    {
+      "id": 3,
+      "value": "500+",
+      "label": "Happy Customers",
+      "icon": "customers"
+    },
+    {
+      "id": 4,
+      "value": "25MW+",
+      "label": "Solar Capacity Installed",
+      "icon": "capacity"
+    }
+  ],
+  
+  "coreValues": [
+    {
+      "id": 1,
+      "title": "Quality First",
+      "description": "We use only premium-grade solar panels and equipment from internationally certified manufacturers.",
+      "icon": "quality"
+    },
+    {
+      "id": 2,
+      "title": "Customer Satisfaction",
+      "description": "Your satisfaction is our priority. We provide 24/7 support and comprehensive warranties.",
+      "icon": "satisfaction"
+    },
+    {
+      "id": 3,
+      "title": "Sustainability",
+      "description": "We are committed to reducing carbon footprint and promoting clean, renewable energy solutions.",
+      "icon": "sustainability"
+    },
+    {
+      "id": 4,
+      "title": "Innovation",
+      "description": "We continuously adopt the latest solar technologies to provide the most efficient solutions.",
+      "icon": "innovation"
+    }
+  ],
+  
+ 
+  
+  "certifications": [
+    {
+      "id": 1,
+      "name": "ISO 9001:2015 Certified",
+      "image": "iso-9001"
+    },
+    {
+      "id": 2,
+      "name": "MNRE Approved",
+      "image": "mnre"
+    },
+    {
+      "id": 3,
+      "name": "BIS Certified Products",
+      "image": "bis"
+    },
+    {
+      "id": 4,
+      "name": "IEC Standards Compliant",
+      "image": "iec"
+    }
+  ],
+  
+  "companyTimeline": [
+    {
+      "year": "2015",
+      "title": "Company Founded",
+      "description": "Arvi Solar was established with a vision to make solar energy accessible"
+    },
+    {
+      "year": "2017",
+      "title": "1000+ Installations",
+      "description": "Crossed the milestone of 1000 successful solar installations"
+    },
+    {
+      "year": "2019",
+      "title": "National Expansion",
+      "description": "Expanded operations to 15+ states across India"
+    },
+    {
+      "year": "2021",
+      "title": "ISO Certification",
+      "description": "Received ISO 9001:2015 certification for quality management"
+    },
+    {
+      "year": "2023",
+      "title": "10,000+ Happy Customers",
+      "description": "Achieved the milestone of serving 10,000+ satisfied customers"
+    }
+  ],
+  
+  "awards": [
+    {
+      "id": 1,
+      "title": "Best Solar Energy Provider 2023",
+      "organization": "Indian Solar Awards",
+      "year": "2023"
+    },
+    {
+      "id": 2,
+      "title": "Excellence in Customer Service",
+      "organization": "Energy India Summit",
+      "year": "2022"
+    },
+    {
+      "id": 3,
+      "title": "Top 10 Solar Companies in India",
+      "organization": "Solar Magazine India",
+      "year": "2021"
+    }
+  ]
+
+}
